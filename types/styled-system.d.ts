@@ -87,7 +87,7 @@ declare module "styled-system" {
   export function get(obj: any, ...paths: Array<string | number>): any;
 
   /**
-   * Object or array is the type needed to build aliases
+   * Object or array is the type needed to build aliases in the theme
    */
   export type ObjectOrArray<T = any, K = any> = T[] & { [key in K]?: T }
   // export type ObjectOrArray<T = TLengthStyledSystem> = T[] & { [key in keyof ThemeBreakpoints]?: T }
