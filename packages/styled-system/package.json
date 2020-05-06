@@ -1,6 +1,6 @@
 {
   "name": "styled-system",
-  "version": "5.1.5.1",
+  "version": "5.1.5",
   "description": "Responsive, theme-based style props for building design systems with React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -10,7 +10,7 @@
     "styled-components",
     "emotion"
   ],
-  "author": "Simone",
+  "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
     "@styled-system/background": "^5.1.2",
